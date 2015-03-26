@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.purpleberry.clickclick.MainActivity" >
+
+    
+      <item android:id="@+id/action_camera" 
+        android:title="@string/menu_camera_label" 
+        android:icon="@drawable/ic_action_camera"
+        app:showAsAction="always">
+        </item>
+
+</menu>

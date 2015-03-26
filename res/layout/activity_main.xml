@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.purpleberry.clickclick.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/grid_spacing"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/grid_spacing"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/grid_spacing" >
+    </GridView>
+
+    <!-- Here is the view to show if the grid is emtpy -->
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Welcome"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</FrameLayout>

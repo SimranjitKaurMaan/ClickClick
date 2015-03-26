@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClickClick</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_camera_label">Camera</string>
+    <string name="Welcome">Welcome to ClickClick</string>
+    <string name="error_external_storage">There was a problem accessing your device\'s external storage</string>
+    <string name="Photo">Photo</string>
+    <string name="default_name">IMG_2014124</string>
+</resources>
